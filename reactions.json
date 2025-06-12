@@ -1,188 +1,425 @@
 {
   "compounds": [
     {
-      "name": "Ethane",
-      "smiles": "CC",
-      "functionalGroup": "Alkane",
-      "reactions": [
-        {
-          "reactionName": "Free Radical Halogenation",
-          "reactionType": ["Substitution"],
-          "reagents": "Br2, hv",
-          "productName": "Bromoethane"
-        }
+      "name": "Methane", "smiles": "C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Cl2, hv", "productName": "Chloromethane"},
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "Bromomethane"},
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "I2, hv", "productName": "Iodomethane"}
       ]
     },
     {
-      "name": "Bromoethane",
-      "smiles": "CCBr",
-      "functionalGroup": "Alkyl Halide",
-      "reactions": [
-        {
-          "reactionName": "Elimination (E2)",
-          "reactionType": ["Elimination"],
-          "reagents": "NaOEt, EtOH, heat",
-          "productName": "Ethene"
-        },
-        {
-          "reactionName": "Substitution (SN2)",
-          "reactionType": ["Substitution"],
-          "reagents": "NaOH",
-          "productName": "Ethanol"
-        },
-        {
-          "reactionName": "Grignard Formation",
-          "reactionType": ["Organometallic"],
-          "reagents": "Mg, Ether",
-          "productName": "Ethylmagnesium Bromide"
-        }
+      "name": "Ethane", "smiles": "CC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "Bromoethane"}
       ]
     },
     {
-      "name": "Ethene",
-      "smiles": "C=C",
-      "functionalGroup": "Alkene",
-      "reactions": [
-        {
-          "reactionName": "Acid-Catalyzed Hydration",
-          "reactionType": ["Addition"],
-          "reagents": "H3O+",
-          "productName": "Ethanol"
-        },
-        {
-          "reactionName": "Halogenation",
-          "reactionType": ["Addition"],
-          "reagents": "Br2",
-          "productName": "1,2-Dibromoethane"
-        },
-        {
-          "reactionName": "Hydroboration-Oxidation",
-          "reactionType": ["Addition"],
-          "reagents": "1. BH3, THF / 2. H2O2, NaOH",
-          "productName": "Ethanol"
-        }
+      "name": "Propane", "smiles": "CCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromopropane"}
       ]
     },
     {
-      "name": "Ethanol",
-      "smiles": "CCO",
-      "functionalGroup": "Alcohol",
-      "reactions": [
-        {
-          "reactionName": "Oxidation (to Aldehyde)",
-          "reactionType": ["Oxidation"],
-          "reagents": "PCC",
-          "productName": "Ethanal"
-        },
-        {
-          "reactionName": "Oxidation (to Carboxylic Acid)",
-          "reactionType": ["Oxidation"],
-          "reagents": "H2CrO4",
-          "productName": "Ethanoic Acid"
-        },
-        {
-          "reactionName": "Substitution to Alkyl Halide",
-          "reactionType": ["Substitution"],
-          "reagents": "HBr",
-          "productName": "Bromoethane"
-        }
+      "name": "Butane", "smiles": "CCCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromobutane"}
       ]
     },
     {
-      "name": "Ethanal",
-      "smiles": "CC=O",
-      "functionalGroup": "Aldehyde",
-      "reactions": []
-    },
-    {
-      "name": "Ethanoic Acid",
-      "smiles": "CC(=O)O",
-      "functionalGroup": "Carboxylic Acid",
-      "reactions": []
-    },
-    {
-      "name": "1,2-Dibromoethane",
-      "smiles": "C(Br)CBr",
-      "functionalGroup": "Alkyl Halide",
-      "reactions": [
-        {
-          "reactionName": "Double Elimination to Alkyne",
-          "reactionType": ["Elimination"],
-          "reagents": "2 eq. NaNH2",
-          "productName": "Ethyne"
-        }
+      "name": "Isobutane", "smiles": "CC(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromo-2-methylpropane"}
       ]
     },
     {
-      "name": "Ethyne",
-      "smiles": "C#C",
-      "functionalGroup": "Alkyne",
-      "reactions": [
-        {
-            "reactionName": "Acid-Catalyzed Hydration (Keto-Enol Tautomerism)",
-            "reactionType": ["Addition"],
-            "reagents": "H2SO4, H2O, HgSO4",
-            "productName": "Ethanal"
-        }
+      "name": "Pentane", "smiles": "CCCCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromopentane"}
       ]
     },
     {
-        "name": "Propane",
-        "smiles": "CCC",
-        "functionalGroup": "Alkane",
-        "reactions": [
-          {
-            "reactionName": "Free Radical Halogenation",
-            "reactionType": ["Substitution"],
-            "reagents": "Br2, hv",
-            "productName": "2-Bromopropane"
-          }
-        ]
+      "name": "Isopentane", "smiles": "CCC(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromo-3-methylbutane"}
+      ]
     },
     {
-        "name": "2-Bromopropane",
-        "smiles": "CC(Br)C",
-        "functionalGroup": "Alkyl Halide",
-        "reactions": [
-            {
-                "reactionName": "Elimination (E2)",
-                "reactionType": ["Elimination"],
-                "reagents": "NaOEt, EtOH, heat",
-                "productName": "Propene"
-            }
-        ]
+      "name": "Neopentane", "smiles": "CC(C)(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "1-Bromo-2,2-dimethylpropane"}
+      ]
     },
     {
-        "name": "Propene",
-        "smiles": "CC=C",
-        "functionalGroup": "Alkene",
-        "reactions": [
-            {
-                "reactionName": "Acid-Catalyzed Hydration (Markovnikov)",
-                "reactionType": ["Addition"],
-                "reagents": "H3O+",
-                "productName": "Propan-2-ol"
-            }
-        ]
+      "name": "Hexane", "smiles": "CCCCCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromohexane"}
+      ]
     },
     {
-        "name": "Propan-2-ol",
-        "smiles": "CC(O)C",
-        "functionalGroup": "Alcohol",
-        "reactions": [
-            {
-                "reactionName": "Oxidation",
-                "reactionType": ["Oxidation"],
-                "reagents": "H2CrO4",
-                "productName": "Propanone"
-            }
-        ]
+      "name": "2-Methylpentane", "smiles": "CCCC(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromo-2-methylpentane"}
+      ]
     },
     {
-        "name": "Propanone",
-        "smiles": "CC(=O)C",
-        "functionalGroup": "Ketone",
-        "reactions": []
+      "name": "3-Methylpentane", "smiles": "CCC(C)CC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "3-Bromo-3-methylpentane"}
+      ]
+    },
+    {
+      "name": "2,2-Dimethylbutane", "smiles": "CC(C)(C)CC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "3-Bromo-2,2-dimethylbutane"}
+      ]
+    },
+    {
+      "name": "2,3-Dimethylbutane", "smiles": "CC(C)C(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromo-2,3-dimethylbutane"}
+      ]
+    },
+    {
+      "name": "Heptane", "smiles": "CCCCCCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromoheptane"}
+      ]
+    },
+    {
+      "name": "Octane", "smiles": "CCCCCCCC", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "2-Bromooctane"}
+      ]
+    },
+    {
+      "name": "Isooctane", "smiles": "CC(C)CC(C)(C)C", "functionalGroup": "Alkane", "reactions": [
+        {"reactionName": "Free Radical Halogenation", "reactionType": ["Substitution"], "reagents": "Br2, hv", "productName": "4-Bromo-2,2,4-trimethylpentane"}
+      ]
+    },
+    {
+      "name": "Ethene", "smiles": "C=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Ethanol"},
+        {"reactionName": "Halogenation", "reactionType": ["Addition"], "reagents": "Br2", "productName": "1,2-Dibromoethane"},
+        {"reactionName": "Hydroboration-Oxidation", "reactionType": ["Addition"], "reagents": "1. BH3, THF / 2. H2O2, NaOH", "productName": "Ethanol"}
+      ]
+    },
+    {
+      "name": "Propene", "smiles": "CC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Propan-2-ol"}
+      ]
+    },
+    {
+      "name": "But-1-ene", "smiles": "CCC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Butan-2-ol"}
+      ]
+    },
+    {
+      "name": "Pent-1-ene", "smiles": "CCCC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Pentan-2-ol"}
+      ]
+    },
+    {
+      "name": "Hex-1-ene", "smiles": "CCCCC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Hexan-2-ol"}
+      ]
+    },
+    {
+      "name": "Hept-1-ene", "smiles": "CCCCCC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Heptan-2-ol"}
+      ]
+    },
+    {
+      "name": "Oct-1-ene", "smiles": "CCCCCCC=C", "functionalGroup": "Alkene", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Markovnikov)", "reactionType": ["Addition"], "reagents": "H3O+", "productName": "Octan-2-ol"}
+      ]
+    },
+    {
+      "name": "Chloromethane", "smiles": "CCl", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Methylmagnesium Chloride"}
+      ]
+    },
+    {
+      "name": "Bromomethane", "smiles": "CBr", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Methylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "Iodomethane", "smiles": "CI", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Methylmagnesium Iodide"}
+      ]
+    },
+    {
+      "name": "Chloroethane", "smiles": "CCCl", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Ethylmagnesium Chloride"}
+      ]
+    },
+    {
+      "name": "Bromoethane", "smiles": "CCBr", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Elimination (E2)", "reactionType": ["Elimination"], "reagents": "NaOEt, EtOH, heat", "productName": "Ethene"},
+        {"reactionName": "Substitution (SN2)", "reactionType": ["Substitution"], "reagents": "NaOH", "productName": "Ethanol"},
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Ethylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "Iodoethane", "smiles": "CCI", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Ethylmagnesium Iodide"}
+      ]
+    },
+    {
+      "name": "1-Chloropropane", "smiles": "CCCCl", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Propylmagnesium Chloride"}
+      ]
+    },
+    {
+      "name": "2-Chloropropane", "smiles": "CC(Cl)C", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Isopropylmagnesium Chloride"}
+      ]
+    },
+    {
+      "name": "1-Bromopropane", "smiles": "CCCBr", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Propylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "2-Bromopropane", "smiles": "CC(Br)C", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Elimination (E2)", "reactionType": ["Elimination"], "reagents": "NaOEt, EtOH, heat", "productName": "Propene"},
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Isopropylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "1-Iodopropane", "smiles": "CCCI", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Propylmagnesium Iodide"}
+      ]
+    },
+    {
+      "name": "2-Iodopropane", "smiles": "CC(I)C", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Isopropylmagnesium Iodide"}
+      ]
+    },
+    {
+      "name": "2-Bromo-2-methylpropane", "smiles": "CC(C)(Br)C", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "tert-Butylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "2-Bromo-3-methylbutane", "smiles": "CC(C)C(Br)C", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "(1,2-dimethylpropyl)magnesium Bromide"}
+      ]
+    },
+    {
+      "name": "1-Bromo-2,2-dimethylpropane", "smiles": "CC(C)(C)CBr", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "Neopentylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "Methanol", "smiles": "CO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Methanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Methanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Methanoic Acid"}
+      ]
+    },
+    {
+      "name": "Ethanol", "smiles": "CCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Ethanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Ethanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Ethanoic Acid"},
+        {"reactionName": "Substitution to Alkyl Halide", "reactionType": ["Substitution"], "reagents": "HBr", "productName": "Bromoethane"}
+      ]
+    },
+    {
+      "name": "Propan-1-ol", "smiles": "CCCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Propanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Propanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Propanoic Acid"}
+      ]
+    },
+    {
+      "name": "Butan-1-ol", "smiles": "CCCCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Butanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Butanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Butanoic Acid"}
+      ]
+    },
+    {
+      "name": "Pentan-1-ol", "smiles": "CCCCCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Pentanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Pentanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Pentanoic Acid"}
+      ]
+    },
+    {
+      "name": "Hexan-1-ol", "smiles": "CCCCCCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Hexanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Hexanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Hexanoic Acid"}
+      ]
+    },
+    {
+      "name": "Heptan-1-ol", "smiles": "CCCCCCCO", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Heptanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Heptanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Heptanoic Acid"}
+      ]
+    },
+    {
+      "name": "Octan-1-ol", "smiles": "OCCCCCCCC", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "PCC", "productName": "Octanal"},
+        {"reactionName": "Oxidation (to Aldehyde)", "reactionType": ["Oxidation"], "reagents": "DMP", "productName": "Octanal"},
+        {"reactionName": "Oxidation (to Carboxylic Acid)", "reactionType": ["Oxidation"], "reagents": "H2CrO4 (Jones)", "productName": "Octanoic Acid"}
+      ]
+    },
+    {
+      "name": "Methanal", "smiles": "C=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Ethanal", "smiles": "CC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Propanal", "smiles": "CCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Butanal", "smiles": "CCCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Pentanal", "smiles": "CCCCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Hexanal", "smiles": "CCCCCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Heptanal", "smiles": "CCCCCCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Octanal", "smiles": "CCCCCCCC=O", "functionalGroup": "Aldehyde", "reactions": []
+    },
+    {
+      "name": "Methanoic Acid", "smiles": "C(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Methanal"}
+      ]
+    },
+    {
+      "name": "Ethanoic Acid", "smiles": "CC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Ethanal"}
+      ]
+    },
+    {
+      "name": "Propanoic Acid", "smiles": "CCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Propanal"}
+      ]
+    },
+    {
+      "name": "Butanoic Acid", "smiles": "CCCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Butanal"}
+      ]
+    },
+    {
+      "name": "Pentanoic Acid", "smiles": "CCCCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Pentanal"}
+      ]
+    },
+    {
+      "name": "Hexanoic Acid", "smiles": "CCCCCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Hexanal"}
+      ]
+    },
+    {
+      "name": "Heptanoic Acid", "smiles": "CCCCCCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Heptanal"}
+      ]
+    },
+    {
+      "name": "Octanoic Acid", "smiles": "CCCCCCCC(=O)O", "functionalGroup": "Carboxylic Acid", "reactions": [
+        {"reactionName": "Reduction to Aldehyde", "reactionType": ["Reduction"], "reagents": "1. DIBAL-H, -78C / 2. H2O", "productName": "Octanal"}
+      ]
+    },
+    {
+      "name": "1,2-Dibromoethane", "smiles": "C(Br)CBr", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Double Elimination to Alkyne", "reactionType": ["Elimination"], "reagents": "2 eq. NaNH2", "productName": "Ethyne"}
+      ]
+    },
+    {
+      "name": "Ethyne", "smiles": "C#C", "functionalGroup": "Alkyne", "reactions": [
+        {"reactionName": "Acid-Catalyzed Hydration (Keto-Enol Tautomerism)", "reactionType": ["Addition"], "reagents": "H2SO4, H2O, HgSO4", "productName": "Ethanal"}
+      ]
+    },
+    {
+      "name": "Propan-2-ol", "smiles": "CC(O)C", "functionalGroup": "Alcohol", "reactions": [
+        {"reactionName": "Oxidation", "reactionType": ["Oxidation"], "reagents": "H2CrO4", "productName": "Propanone"}
+      ]
+    },
+    {
+      "name": "Propanone", "smiles": "CC(=O)C", "functionalGroup": "Ketone", "reactions": []
+    },
+    {
+      "name": "Methylmagnesium Chloride", "smiles": "C[Mg]Cl", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Methylmagnesium Bromide", "smiles": "C[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Methylmagnesium Iodide", "smiles": "C[Mg]I", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Ethylmagnesium Chloride", "smiles": "CC[Mg]Cl", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Ethylmagnesium Bromide", "smiles": "CC[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Ethylmagnesium Iodide", "smiles": "CC[Mg]I", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Propylmagnesium Chloride", "smiles": "CCC[Mg]Cl", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Isopropylmagnesium Chloride", "smiles": "CC(C)[Mg]Cl", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Propylmagnesium Bromide", "smiles": "CCC[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Isopropylmagnesium Bromide", "smiles": "CC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Propylmagnesium Iodide", "smiles": "CCC[Mg]I", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Isopropylmagnesium Iodide", "smiles": "CC(C)[Mg]I", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "tert-Butylmagnesium Bromide", "smiles": "CC(C)(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "(1,2-dimethylpropyl)magnesium Bromide", "smiles": "CC(C)C(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "Neopentylmagnesium Bromide", "smiles": "CC(C)(C)C[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "2-Bromobutane", "smiles": "CCC(C)Br", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "sec-Butylmagnesium Bromide"}
+      ]
+    },
+    {
+      "name": "sec-Butylmagnesium Bromide", "smiles": "CCC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "2-Bromopentane", "smiles": "CCCC(C)Br", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "(1-methylbutyl)magnesium Bromide"}
+      ]
+    },
+    {
+      "name": "(1-methylbutyl)magnesium Bromide", "smiles": "CCCC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "2-Bromohexane", "smiles": "CCCCC(C)Br", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "(1-methylpentyl)magnesium Bromide"}
+      ]
+    },
+    {
+      "name": "(1-methylpentyl)magnesium Bromide", "smiles": "CCCCC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "2-Bromoheptane", "smiles": "CCCCCC(C)Br", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "(1-methylhexyl)magnesium Bromide"}
+      ]
+    },
+    {
+      "name": "(1-methylhexyl)magnesium Bromide", "smiles": "CCCCCC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
+    },
+    {
+      "name": "2-Bromooctane", "smiles": "CCCCCCC(C)Br", "functionalGroup": "Alkyl Halide", "reactions": [
+        {"reactionName": "Grignard Formation", "reactionType": ["Organometallic"], "reagents": "Mg, Ether", "productName": "(1-methylheptyl)magnesium Bromide"}
+      ]
+    },
+    {
+      "name": "(1-methylheptyl)magnesium Bromide", "smiles": "CCCCCCC(C)[Mg]Br", "functionalGroup": "Grignard Reagent", "reactions": []
     }
   ]
 }
