@@ -1,0 +1,188 @@
+{
+  "compounds": [
+    {
+      "name": "Ethane",
+      "smiles": "CC",
+      "functionalGroup": "Alkane",
+      "reactions": [
+        {
+          "reactionName": "Free Radical Halogenation",
+          "reactionType": ["Substitution"],
+          "reagents": "Br2, hv",
+          "productName": "Bromoethane"
+        }
+      ]
+    },
+    {
+      "name": "Bromoethane",
+      "smiles": "CCBr",
+      "functionalGroup": "Alkyl Halide",
+      "reactions": [
+        {
+          "reactionName": "Elimination (E2)",
+          "reactionType": ["Elimination"],
+          "reagents": "NaOEt, EtOH, heat",
+          "productName": "Ethene"
+        },
+        {
+          "reactionName": "Substitution (SN2)",
+          "reactionType": ["Substitution"],
+          "reagents": "NaOH",
+          "productName": "Ethanol"
+        },
+        {
+          "reactionName": "Grignard Formation",
+          "reactionType": ["Organometallic"],
+          "reagents": "Mg, Ether",
+          "productName": "Ethylmagnesium Bromide"
+        }
+      ]
+    },
+    {
+      "name": "Ethene",
+      "smiles": "C=C",
+      "functionalGroup": "Alkene",
+      "reactions": [
+        {
+          "reactionName": "Acid-Catalyzed Hydration",
+          "reactionType": ["Addition"],
+          "reagents": "H3O+",
+          "productName": "Ethanol"
+        },
+        {
+          "reactionName": "Halogenation",
+          "reactionType": ["Addition"],
+          "reagents": "Br2",
+          "productName": "1,2-Dibromoethane"
+        },
+        {
+          "reactionName": "Hydroboration-Oxidation",
+          "reactionType": ["Addition"],
+          "reagents": "1. BH3, THF / 2. H2O2, NaOH",
+          "productName": "Ethanol"
+        }
+      ]
+    },
+    {
+      "name": "Ethanol",
+      "smiles": "CCO",
+      "functionalGroup": "Alcohol",
+      "reactions": [
+        {
+          "reactionName": "Oxidation (to Aldehyde)",
+          "reactionType": ["Oxidation"],
+          "reagents": "PCC",
+          "productName": "Ethanal"
+        },
+        {
+          "reactionName": "Oxidation (to Carboxylic Acid)",
+          "reactionType": ["Oxidation"],
+          "reagents": "H2CrO4",
+          "productName": "Ethanoic Acid"
+        },
+        {
+          "reactionName": "Substitution to Alkyl Halide",
+          "reactionType": ["Substitution"],
+          "reagents": "HBr",
+          "productName": "Bromoethane"
+        }
+      ]
+    },
+    {
+      "name": "Ethanal",
+      "smiles": "CC=O",
+      "functionalGroup": "Aldehyde",
+      "reactions": []
+    },
+    {
+      "name": "Ethanoic Acid",
+      "smiles": "CC(=O)O",
+      "functionalGroup": "Carboxylic Acid",
+      "reactions": []
+    },
+    {
+      "name": "1,2-Dibromoethane",
+      "smiles": "C(Br)CBr",
+      "functionalGroup": "Alkyl Halide",
+      "reactions": [
+        {
+          "reactionName": "Double Elimination to Alkyne",
+          "reactionType": ["Elimination"],
+          "reagents": "2 eq. NaNH2",
+          "productName": "Ethyne"
+        }
+      ]
+    },
+    {
+      "name": "Ethyne",
+      "smiles": "C#C",
+      "functionalGroup": "Alkyne",
+      "reactions": [
+        {
+            "reactionName": "Acid-Catalyzed Hydration (Keto-Enol Tautomerism)",
+            "reactionType": ["Addition"],
+            "reagents": "H2SO4, H2O, HgSO4",
+            "productName": "Ethanal"
+        }
+      ]
+    },
+    {
+        "name": "Propane",
+        "smiles": "CCC",
+        "functionalGroup": "Alkane",
+        "reactions": [
+          {
+            "reactionName": "Free Radical Halogenation",
+            "reactionType": ["Substitution"],
+            "reagents": "Br2, hv",
+            "productName": "2-Bromopropane"
+          }
+        ]
+    },
+    {
+        "name": "2-Bromopropane",
+        "smiles": "CC(Br)C",
+        "functionalGroup": "Alkyl Halide",
+        "reactions": [
+            {
+                "reactionName": "Elimination (E2)",
+                "reactionType": ["Elimination"],
+                "reagents": "NaOEt, EtOH, heat",
+                "productName": "Propene"
+            }
+        ]
+    },
+    {
+        "name": "Propene",
+        "smiles": "CC=C",
+        "functionalGroup": "Alkene",
+        "reactions": [
+            {
+                "reactionName": "Acid-Catalyzed Hydration (Markovnikov)",
+                "reactionType": ["Addition"],
+                "reagents": "H3O+",
+                "productName": "Propan-2-ol"
+            }
+        ]
+    },
+    {
+        "name": "Propan-2-ol",
+        "smiles": "CC(O)C",
+        "functionalGroup": "Alcohol",
+        "reactions": [
+            {
+                "reactionName": "Oxidation",
+                "reactionType": ["Oxidation"],
+                "reagents": "H2CrO4",
+                "productName": "Propanone"
+            }
+        ]
+    },
+    {
+        "name": "Propanone",
+        "smiles": "CC(=O)C",
+        "functionalGroup": "Ketone",
+        "reactions": []
+    }
+  ]
+}
